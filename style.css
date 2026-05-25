@@ -1,1 +1,46 @@
-/* Start coding here */
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  min-height: 100vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background: linear-gradient(
+    to right,
+    hsl(0, 100%, 70%),
+    hsl(240, 100%, 70%)
+  );
+  font-family: Georgia, "Times New Roman", Times, serif;
+}
+
+.card {
+  width: 33%;
+  min-width: 280px;
+  max-width: 520px;
+  padding: 40px;
+  background-color: hsla(0, 50%, 100%, 0.5);
+  border-radius: 12px;
+  text-align: center;
+}
+
+h1 {
+  font-size: 1.5rem;
+  font-weight: bold;
+  margin-bottom: 16px;
+}
+
+.icon {
+  font-size: 0.85rem;
+  margin: 0 6px;
+  color: hsl(270, 40%, 45%);
+}
+
+p {
+  font-size: 0.95rem;
+  line-height: 1.6;
+  color: hsl(0, 0%, 15%);
+}
